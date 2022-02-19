@@ -1,9 +1,7 @@
 //JavaScript Week 3 Assignment John
 
-
 //Step 1- Creating an array
 var intArray=[3, 9, 23, 64, 2, 8, 28, 93]
-
 
 //Step 1a- Subtracts the first element from the last element and returns the res
 function subtractFirstFromLast(anArray) {
@@ -17,10 +15,9 @@ console.log(subtractFirstFromLast(intArray));
 //push a number on the end, run the 1a function again.
 intArray.push(44);
 
-console.log("Solution 2a");
+console.log("Solution 1b");
 console.log(intArray); //just prints the array
 console.log(subtractFirstFromLast(intArray));
-
 
 //Step 1c
 //make an average value function for an array, run it on my array
@@ -70,7 +67,6 @@ function arrayArgumentLengthAverage(anArray) {  //Silly self question can you du
 console.log("Solution 2a- Average Array Argument Length");
 console.log(arrayArgumentLengthAverage(namesArray2));
 
-
 //Step 2b-Make a long string from an Array, maybe it is useful for something
 
 function arrayStringCat(anArray){
@@ -97,7 +93,6 @@ function randomString() {  //create a random string of 1-6 characters (6 is very
     return rndString
 }
 
-
 function createSampleArray(sampleLength, sampleType){ //Now with 2 types, can add more later
     sampleType=sampleType.toLowerCase();
     var sampleArray=[];
@@ -119,7 +114,6 @@ function createSampleArray(sampleLength, sampleType){ //Now with 2 types, can ad
             } 
     }
     return sampleArray;
-
 }
 
 var questionThreeArray=createSampleArray(5, 'string');
@@ -128,12 +122,9 @@ var questionThreeArray=createSampleArray(5, 'string');
 var lastArrayElement2 = questionThreeArray.slice(-1)[0]; // more elegant method
 //var lastArrayElement3 = questionThreeArray.pop(); //I have it now, but the array has lost it seems like a bad plan for the way the question is written
 
-
 console.log("Solution 3- Accessing the last element of an array");
 console.log(questionThreeArray);
 console.log(lastArrayElement2);
-
-
 
 //Question 4
 //Create a new sample array first, because the functions exist
@@ -297,6 +288,3 @@ a new problem to go with that, which was what if I wanted to add strings, so I w
 function to create a random string, see function randomString
 */
 console.log("Solution 13- I wrote a function that creates random arrays and a second function that creates random strings.  Both were used in previous examples.")
-
-
-
